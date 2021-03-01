@@ -1,0 +1,20 @@
+body {
+	display: grid;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1 {
+	text-align: center;
+}
+.game-board {
+	display: grid;
+	justify-content: center;
+	grid-template: repeat(3, 10rem) / repeat(3, 10rem);
+	background-color: white;
+}
+.box {
+	border: 2px solid black;
+	outline: white;
+}
