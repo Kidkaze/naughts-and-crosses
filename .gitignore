@@ -1,3 +1,6 @@
 # Markdown and Plan #
 ###################
 *.md
+plan.js
+test.css
+test.html
